@@ -26,6 +26,7 @@ export default function SearchBar() {
       settitle("");
       toast.success("Note found !!!");
     } else {
+      settitle("");
       toast.error("Note not found !!!");
     }
   };
